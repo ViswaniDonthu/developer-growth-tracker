@@ -1,0 +1,25 @@
+# Node / Frontend
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Maven / Java / Backend
+target/
+*.class
+*.jar
+*.war
+backend/data/
+
+# Environment and sensitive files
+.env
+.env.local
+
+# IDE and OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+*.log

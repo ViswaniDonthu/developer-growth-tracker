@@ -1,0 +1,32 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: growth-tracker-app
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      PORT: 8080
+      DATABASE_URL: ${DATABASE_URL:-jdbc:postgresql://postgres:5432/growth_tracker}
+      DB_USERNAME: ${DB_USERNAME:-postgres}
+      DB_PASSWORD: ${DB_PASSWORD:-postgres}
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:16-alpine
+    container_name: growth-tracker-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: growth_tracker
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - growth_tracker_data:/var/lib/postgresql/data
+
+volumes:
+  growth_tracker_data:

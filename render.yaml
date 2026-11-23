@@ -1,0 +1,22 @@
+services:
+  # =============================================================
+  # Unified All-in-One Service (Frontend + Backend in 1 Dockerfile)
+  # =============================================================
+  - type: web
+    name: growth-tracker
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: free
+    region: oregon
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: 8080
+      # Neon PostgreSQL credentials:
+      - key: DATABASE_URL
+        sync: false
+      - key: DB_USERNAME
+        sync: false
+      - key: DB_PASSWORD
+        sync: false

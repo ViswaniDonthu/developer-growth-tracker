@@ -1,0 +1,2180 @@
+[
+  {
+    "date": "2026-11-12",
+    "phase": "Foundations",
+    "domain": "Applied AI",
+    "topic": "AI vs ML vs deep learning vs GenAI",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 1
+  },
+  {
+    "date": "2026-11-13",
+    "phase": "Foundations",
+    "domain": "DSA + SQL",
+    "topic": "Prefix sums + SELECT, filtering and sorting",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 1
+  },
+  {
+    "date": "2026-11-14",
+    "phase": "Foundations",
+    "domain": "System Design + LLD",
+    "topic": "Client-server architecture and request lifecycle / OOP modelling and UML class diagrams",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 1
+  },
+  {
+    "date": "2026-11-15",
+    "phase": "Foundations",
+    "domain": "Revision + AI Project",
+    "topic": "Review weekly DSA mistakes and Java notes",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 1
+  },
+  {
+    "date": "2026-11-16",
+    "phase": "Foundations",
+    "domain": "DSA",
+    "topic": "Arrays and strings",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 1
+  },
+  {
+    "date": "2026-11-17",
+    "phase": "Foundations",
+    "domain": "Java / Backend",
+    "topic": "OOP principles and object design",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 1
+  },
+  {
+    "date": "2026-11-18",
+    "phase": "Foundations",
+    "domain": "DSA",
+    "topic": "Two pointers",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 1
+  },
+  {
+    "date": "2026-11-19",
+    "phase": "Foundations",
+    "domain": "Applied AI",
+    "topic": "What an LLM is and how generation works",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 2
+  },
+  {
+    "date": "2026-11-20",
+    "phase": "Foundations",
+    "domain": "DSA + SQL",
+    "topic": "Binary search basics + INNER/LEFT/RIGHT joins",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 2
+  },
+  {
+    "date": "2026-11-21",
+    "phase": "Foundations",
+    "domain": "System Design + LLD",
+    "topic": "HTTP, DNS and TCP basics / Encapsulation, abstraction and composition",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 2
+  },
+  {
+    "date": "2026-11-22",
+    "phase": "Foundations",
+    "domain": "Revision + AI Project",
+    "topic": "Build a tiny Spring Boot + React LLM chat UI",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 2
+  },
+  {
+    "date": "2026-11-23",
+    "phase": "Foundations",
+    "domain": "DSA",
+    "topic": "HashMap and HashSet",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 2
+  },
+  {
+    "date": "2026-11-24",
+    "phase": "Foundations",
+    "domain": "Java / Backend",
+    "topic": "Collections Framework overview",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 2
+  },
+  {
+    "date": "2026-11-25",
+    "phase": "Foundations",
+    "domain": "DSA",
+    "topic": "Sliding window",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 2
+  },
+  {
+    "date": "2026-11-26",
+    "phase": "Foundations",
+    "domain": "Applied AI",
+    "topic": "Tokens, context windows and temperature",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 3
+  },
+  {
+    "date": "2026-11-27",
+    "phase": "Foundations",
+    "domain": "DSA + SQL",
+    "topic": "Arrays and strings + GROUP BY and HAVING",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 3
+  },
+  {
+    "date": "2026-11-28",
+    "phase": "Foundations",
+    "domain": "System Design + LLD",
+    "topic": "Vertical vs horizontal scaling / OOP modelling and UML class diagrams",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 3
+  },
+  {
+    "date": "2026-11-29",
+    "phase": "Foundations",
+    "domain": "Revision + AI Project",
+    "topic": "Review weekly DSA mistakes and Java notes",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 3
+  },
+  {
+    "date": "2026-11-30",
+    "phase": "Foundations",
+    "domain": "DSA",
+    "topic": "Two pointers",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 3
+  },
+  {
+    "date": "2026-12-01",
+    "phase": "Foundations",
+    "domain": "Java / Backend",
+    "topic": "HashMap internals",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 3
+  },
+  {
+    "date": "2026-12-02",
+    "phase": "Foundations",
+    "domain": "DSA",
+    "topic": "Prefix sums",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 3
+  },
+  {
+    "date": "2026-12-03",
+    "phase": "Foundations",
+    "domain": "Applied AI",
+    "topic": "Prompt structure and system prompts",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 4
+  },
+  {
+    "date": "2026-12-04",
+    "phase": "Foundations",
+    "domain": "DSA + SQL",
+    "topic": "HashMap and HashSet + Subqueries and aggregation",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 4
+  },
+  {
+    "date": "2026-12-05",
+    "phase": "Foundations",
+    "domain": "System Design + LLD",
+    "topic": "Latency, throughput and availability / Encapsulation, abstraction and composition",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 4
+  },
+  {
+    "date": "2026-12-06",
+    "phase": "Foundations",
+    "domain": "Revision + AI Project",
+    "topic": "Build a tiny Spring Boot + React LLM chat UI",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 4
+  },
+  {
+    "date": "2026-12-07",
+    "phase": "Foundations",
+    "domain": "DSA",
+    "topic": "Sliding window",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 4
+  },
+  {
+    "date": "2026-12-08",
+    "phase": "Foundations",
+    "domain": "Java / Backend",
+    "topic": "equals() and hashCode()",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 4
+  },
+  {
+    "date": "2026-12-09",
+    "phase": "Foundations",
+    "domain": "DSA",
+    "topic": "Binary search basics",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 4
+  },
+  {
+    "date": "2026-12-10",
+    "phase": "Foundations",
+    "domain": "Applied AI",
+    "topic": "Hallucinations and model limitations",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 5
+  },
+  {
+    "date": "2026-12-11",
+    "phase": "Foundations",
+    "domain": "DSA + SQL",
+    "topic": "Two pointers + SELECT, filtering and sorting",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 5
+  },
+  {
+    "date": "2026-12-12",
+    "phase": "Java and LLM APIs",
+    "domain": "System Design + LLD",
+    "topic": "Load balancers and health checks / SOLID principles",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 5
+  },
+  {
+    "date": "2026-12-13",
+    "phase": "Java and LLM APIs",
+    "domain": "Revision + AI Project",
+    "topic": "Timed DSA practice and Java concurrency revision",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 5
+  },
+  {
+    "date": "2026-12-14",
+    "phase": "Java and LLM APIs",
+    "domain": "DSA",
+    "topic": "Sorting and intervals",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 5
+  },
+  {
+    "date": "2026-12-15",
+    "phase": "Java and LLM APIs",
+    "domain": "Java / Backend",
+    "topic": "JVM memory: heap, stack and GC",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 5
+  },
+  {
+    "date": "2026-12-16",
+    "phase": "Java and LLM APIs",
+    "domain": "DSA",
+    "topic": "Stacks and queues",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 5
+  },
+  {
+    "date": "2026-12-17",
+    "phase": "Java and LLM APIs",
+    "domain": "Applied AI",
+    "topic": "Token usage, latency and cost tracking",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 6
+  },
+  {
+    "date": "2026-12-18",
+    "phase": "Java and LLM APIs",
+    "domain": "DSA + SQL",
+    "topic": "Sorting and intervals + ACID properties",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 6
+  },
+  {
+    "date": "2026-12-19",
+    "phase": "Java and LLM APIs",
+    "domain": "System Design + LLD",
+    "topic": "Reverse proxies and API gateways / Factory and Strategy patterns",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 6
+  },
+  {
+    "date": "2026-12-20",
+    "phase": "Java and LLM APIs",
+    "domain": "Revision + AI Project",
+    "topic": "Build a customer-support chatbot with conversation history",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 6
+  },
+  {
+    "date": "2026-12-21",
+    "phase": "Java and LLM APIs",
+    "domain": "DSA",
+    "topic": "Linked lists",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 6
+  },
+  {
+    "date": "2026-12-22",
+    "phase": "Java and LLM APIs",
+    "domain": "Java / Backend",
+    "topic": "Thread lifecycle and synchronization",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 6
+  },
+  {
+    "date": "2026-12-23",
+    "phase": "Java and LLM APIs",
+    "domain": "DSA",
+    "topic": "Binary search variations",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 6
+  },
+  {
+    "date": "2026-12-24",
+    "phase": "Java and LLM APIs",
+    "domain": "Applied AI",
+    "topic": "LLM API request and response structure",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 7
+  },
+  {
+    "date": "2026-12-25",
+    "phase": "Java and LLM APIs",
+    "domain": "DSA + SQL",
+    "topic": "Linked lists + Transaction isolation levels",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 7
+  },
+  {
+    "date": "2026-12-26",
+    "phase": "Java and LLM APIs",
+    "domain": "System Design + LLD",
+    "topic": "Caching fundamentals / SOLID principles",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 7
+  },
+  {
+    "date": "2026-12-27",
+    "phase": "Java and LLM APIs",
+    "domain": "Revision + AI Project",
+    "topic": "Timed DSA practice and Java concurrency revision",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 7
+  },
+  {
+    "date": "2026-12-28",
+    "phase": "Java and LLM APIs",
+    "domain": "DSA",
+    "topic": "Stacks and queues",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 7
+  },
+  {
+    "date": "2026-12-29",
+    "phase": "Java and LLM APIs",
+    "domain": "Java / Backend",
+    "topic": "ExecutorService and thread pools",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 7
+  },
+  {
+    "date": "2026-12-30",
+    "phase": "Java and LLM APIs",
+    "domain": "DSA",
+    "topic": "Recursion fundamentals",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 7
+  },
+  {
+    "date": "2026-12-31",
+    "phase": "Java and LLM APIs",
+    "domain": "Applied AI",
+    "topic": "Structured JSON output",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 8
+  },
+  {
+    "date": "2027-01-01",
+    "phase": "Java and LLM APIs",
+    "domain": "DSA + SQL",
+    "topic": "Stacks and queues + Deadlocks and query plans",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 8
+  },
+  {
+    "date": "2027-01-02",
+    "phase": "Java and LLM APIs",
+    "domain": "System Design + LLD",
+    "topic": "CDN and static asset delivery / Factory and Strategy patterns",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 8
+  },
+  {
+    "date": "2027-01-03",
+    "phase": "Java and LLM APIs",
+    "domain": "Revision + AI Project",
+    "topic": "Build a customer-support chatbot with conversation history",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 8
+  },
+  {
+    "date": "2027-01-04",
+    "phase": "Java and LLM APIs",
+    "domain": "DSA",
+    "topic": "Binary search variations",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 8
+  },
+  {
+    "date": "2027-01-05",
+    "phase": "Java and LLM APIs",
+    "domain": "Java / Backend",
+    "topic": "CompletableFuture",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 8
+  },
+  {
+    "date": "2027-01-06",
+    "phase": "Java and LLM APIs",
+    "domain": "DSA",
+    "topic": "Sorting and intervals",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 8
+  },
+  {
+    "date": "2027-01-07",
+    "phase": "Java and LLM APIs",
+    "domain": "Applied AI",
+    "topic": "Tool/function calling",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 9
+  },
+  {
+    "date": "2027-01-08",
+    "phase": "Java and LLM APIs",
+    "domain": "DSA + SQL",
+    "topic": "Binary search variations + Indexes and composite indexes",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 9
+  },
+  {
+    "date": "2027-01-09",
+    "phase": "Java and LLM APIs",
+    "domain": "System Design + LLD",
+    "topic": "Load balancers and health checks / SOLID principles",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 9
+  },
+  {
+    "date": "2027-01-10",
+    "phase": "Java and LLM APIs",
+    "domain": "Revision + AI Project",
+    "topic": "Timed DSA practice and Java concurrency revision",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 9
+  },
+  {
+    "date": "2027-01-11",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "DSA",
+    "topic": "Heaps and priority queues",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 9
+  },
+  {
+    "date": "2027-01-12",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "Java / Backend",
+    "topic": "Spring MVC request lifecycle",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 9
+  },
+  {
+    "date": "2027-01-13",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "DSA",
+    "topic": "Binary trees and traversals",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 9
+  },
+  {
+    "date": "2027-01-14",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "Applied AI",
+    "topic": "Vector database concepts",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 10
+  },
+  {
+    "date": "2027-01-15",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "DSA + SQL",
+    "topic": "Heaps and priority queues + Pagination and sorting queries",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 10
+  },
+  {
+    "date": "2027-01-16",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "System Design + LLD",
+    "topic": "Replication and read replicas / Parking Lot class design",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 10
+  },
+  {
+    "date": "2027-01-17",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "Revision + AI Project",
+    "topic": "Build PDF/text ingestion and semantic search with Qdrant",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 10
+  },
+  {
+    "date": "2027-01-18",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "DSA",
+    "topic": "Tree recursion patterns",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 10
+  },
+  {
+    "date": "2027-01-19",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "Java / Backend",
+    "topic": "Filters vs interceptors",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 10
+  },
+  {
+    "date": "2027-01-20",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "DSA",
+    "topic": "Binary search trees",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 10
+  },
+  {
+    "date": "2027-01-21",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "Applied AI",
+    "topic": "Similarity metrics and top-K retrieval",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 11
+  },
+  {
+    "date": "2027-01-22",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "DSA + SQL",
+    "topic": "Tree recursion patterns + N+1 query problem and fixes",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 11
+  },
+  {
+    "date": "2027-01-23",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "System Design + LLD",
+    "topic": "SQL vs NoSQL trade-offs / Observer and Decorator patterns",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 11
+  },
+  {
+    "date": "2027-01-24",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "Revision + AI Project",
+    "topic": "Review trees, Spring transactions and SQL",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 11
+  },
+  {
+    "date": "2027-01-25",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "DSA",
+    "topic": "Binary trees and traversals",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 11
+  },
+  {
+    "date": "2027-01-26",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "Java / Backend",
+    "topic": "Spring Security and JWT",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 11
+  },
+  {
+    "date": "2027-01-27",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "DSA",
+    "topic": "BFS and DFS on trees",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 11
+  },
+  {
+    "date": "2027-01-28",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "Applied AI",
+    "topic": "Metadata filtering and payloads",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 12
+  },
+  {
+    "date": "2027-01-29",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "DSA + SQL",
+    "topic": "Binary trees and traversals + Connection pooling",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 12
+  },
+  {
+    "date": "2027-01-30",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "System Design + LLD",
+    "topic": "Database connection management / Parking Lot class design",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 12
+  },
+  {
+    "date": "2027-01-31",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "Revision + AI Project",
+    "topic": "Build PDF/text ingestion and semantic search with Qdrant",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 12
+  },
+  {
+    "date": "2027-02-01",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "DSA",
+    "topic": "Binary search trees",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 12
+  },
+  {
+    "date": "2027-02-02",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "Java / Backend",
+    "topic": "Hibernate persistence context and fetching",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 12
+  },
+  {
+    "date": "2027-02-03",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "DSA",
+    "topic": "Heaps and priority queues",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 12
+  },
+  {
+    "date": "2027-02-04",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "Applied AI",
+    "topic": "What embeddings represent",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 13
+  },
+  {
+    "date": "2027-02-05",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "DSA + SQL",
+    "topic": "Binary search trees + Normalization and schema design",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 13
+  },
+  {
+    "date": "2027-02-06",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "System Design + LLD",
+    "topic": "Database indexes and read performance / Observer and Decorator patterns",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 13
+  },
+  {
+    "date": "2027-02-07",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "Revision + AI Project",
+    "topic": "Review trees, Spring transactions and SQL",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 13
+  },
+  {
+    "date": "2027-02-08",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "DSA",
+    "topic": "BFS and DFS on trees",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 13
+  },
+  {
+    "date": "2027-02-09",
+    "phase": "Spring Boot and Embeddings",
+    "domain": "Java / Backend",
+    "topic": "Spring IoC and dependency injection",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 13
+  },
+  {
+    "date": "2027-02-10",
+    "phase": "Graphs and RAG",
+    "domain": "DSA",
+    "topic": "Topological sorting",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 13
+  },
+  {
+    "date": "2027-02-11",
+    "phase": "Graphs and RAG",
+    "domain": "Applied AI",
+    "topic": "Retrieve-then-generate flow",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 14
+  },
+  {
+    "date": "2027-02-12",
+    "phase": "Graphs and RAG",
+    "domain": "DSA + SQL",
+    "topic": "Backtracking patterns + Composite index design",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 14
+  },
+  {
+    "date": "2027-02-13",
+    "phase": "Graphs and RAG",
+    "domain": "System Design + LLD",
+    "topic": "Message queues and asynchronous work / Strategy pattern in a payment workflow",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 14
+  },
+  {
+    "date": "2027-02-14",
+    "phase": "Graphs and RAG",
+    "domain": "Revision + AI Project",
+    "topic": "Add source citations and chat history to the RAG app",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 14
+  },
+  {
+    "date": "2027-02-15",
+    "phase": "Graphs and RAG",
+    "domain": "DSA",
+    "topic": "Graph BFS and DFS",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 14
+  },
+  {
+    "date": "2027-02-16",
+    "phase": "Graphs and RAG",
+    "domain": "Java / Backend",
+    "topic": "Caching with Redis",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 14
+  },
+  {
+    "date": "2027-02-17",
+    "phase": "Graphs and RAG",
+    "domain": "DSA",
+    "topic": "Disjoint Set Union",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 14
+  },
+  {
+    "date": "2027-02-18",
+    "phase": "Graphs and RAG",
+    "domain": "Applied AI",
+    "topic": "Context construction and citations",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 15
+  },
+  {
+    "date": "2027-02-19",
+    "phase": "Graphs and RAG",
+    "domain": "DSA + SQL",
+    "topic": "Graph representation + Transactions and locking",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 15
+  },
+  {
+    "date": "2027-02-20",
+    "phase": "Graphs and RAG",
+    "domain": "System Design + LLD",
+    "topic": "Rate limiting algorithms / Splitwise domain model",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 15
+  },
+  {
+    "date": "2027-02-21",
+    "phase": "Graphs and RAG",
+    "domain": "Revision + AI Project",
+    "topic": "Graph/greedy revision and mock coding round",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 15
+  },
+  {
+    "date": "2027-02-22",
+    "phase": "Graphs and RAG",
+    "domain": "DSA",
+    "topic": "Topological sorting",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 15
+  },
+  {
+    "date": "2027-02-23",
+    "phase": "Graphs and RAG",
+    "domain": "Java / Backend",
+    "topic": "API pagination and rate limiting",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 15
+  },
+  {
+    "date": "2027-02-24",
+    "phase": "Graphs and RAG",
+    "domain": "DSA",
+    "topic": "Greedy algorithms",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 15
+  },
+  {
+    "date": "2027-02-25",
+    "phase": "Graphs and RAG",
+    "domain": "Applied AI",
+    "topic": "RAG failure modes and hallucination control",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 16
+  },
+  {
+    "date": "2027-02-26",
+    "phase": "Graphs and RAG",
+    "domain": "DSA + SQL",
+    "topic": "Graph BFS and DFS + SQL interview query practice",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 16
+  },
+  {
+    "date": "2027-02-27",
+    "phase": "Graphs and RAG",
+    "domain": "System Design + LLD",
+    "topic": "Idempotency keys / Strategy pattern in a payment workflow",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 16
+  },
+  {
+    "date": "2027-02-28",
+    "phase": "Graphs and RAG",
+    "domain": "Revision + AI Project",
+    "topic": "Add source citations and chat history to the RAG app",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 16
+  },
+  {
+    "date": "2027-03-01",
+    "phase": "Graphs and RAG",
+    "domain": "DSA",
+    "topic": "Disjoint Set Union",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 16
+  },
+  {
+    "date": "2027-03-02",
+    "phase": "Graphs and RAG",
+    "domain": "Java / Backend",
+    "topic": "@Transactional propagation and isolation",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 16
+  },
+  {
+    "date": "2027-03-03",
+    "phase": "Graphs and RAG",
+    "domain": "DSA",
+    "topic": "Backtracking patterns",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 16
+  },
+  {
+    "date": "2027-03-04",
+    "phase": "Graphs and RAG",
+    "domain": "Applied AI",
+    "topic": "Build a Spring AI RAG endpoint",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 17
+  },
+  {
+    "date": "2027-03-05",
+    "phase": "Graphs and RAG",
+    "domain": "DSA + SQL",
+    "topic": "Topological sorting + EXPLAIN and query optimization",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 17
+  },
+  {
+    "date": "2027-03-06",
+    "phase": "Graphs and RAG",
+    "domain": "System Design + LLD",
+    "topic": "Sharding fundamentals / Splitwise domain model",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 17
+  },
+  {
+    "date": "2027-03-07",
+    "phase": "Graphs and RAG",
+    "domain": "Revision + AI Project",
+    "topic": "Graph/greedy revision and mock coding round",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 17
+  },
+  {
+    "date": "2027-03-08",
+    "phase": "Graphs and RAG",
+    "domain": "DSA",
+    "topic": "Greedy algorithms",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 17
+  },
+  {
+    "date": "2027-03-09",
+    "phase": "Graphs and RAG",
+    "domain": "Java / Backend",
+    "topic": "REST validation and exception handling",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 17
+  },
+  {
+    "date": "2027-03-10",
+    "phase": "Graphs and RAG",
+    "domain": "DSA",
+    "topic": "Graph representation",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 17
+  },
+  {
+    "date": "2027-03-11",
+    "phase": "Graphs and RAG",
+    "domain": "Applied AI",
+    "topic": "Conversation-aware RAG",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 18
+  },
+  {
+    "date": "2027-03-12",
+    "phase": "System Design and Advanced RAG",
+    "domain": "DSA + SQL",
+    "topic": "Tries + CTEs and recursive queries",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 18
+  },
+  {
+    "date": "2027-03-13",
+    "phase": "System Design and Advanced RAG",
+    "domain": "System Design + LLD",
+    "topic": "Design an Instagram-style feed / Elevator system design",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 18
+  },
+  {
+    "date": "2027-03-14",
+    "phase": "System Design and Advanced RAG",
+    "domain": "Revision + AI Project",
+    "topic": "Upgrade RAG with hybrid search and reranking",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 18
+  },
+  {
+    "date": "2027-03-15",
+    "phase": "System Design and Advanced RAG",
+    "domain": "DSA",
+    "topic": "Mixed timed DSA set",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 18
+  },
+  {
+    "date": "2027-03-16",
+    "phase": "System Design and Advanced RAG",
+    "domain": "Java / Backend",
+    "topic": "Spring Security deep dive",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 18
+  },
+  {
+    "date": "2027-03-17",
+    "phase": "System Design and Advanced RAG",
+    "domain": "DSA",
+    "topic": "Dynamic programming: 2D",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 18
+  },
+  {
+    "date": "2027-03-18",
+    "phase": "System Design and Advanced RAG",
+    "domain": "Applied AI",
+    "topic": "Hybrid search: keyword + vector",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 19
+  },
+  {
+    "date": "2027-03-19",
+    "phase": "System Design and Advanced RAG",
+    "domain": "DSA + SQL",
+    "topic": "Monotonic stack and queue + Isolation anomalies",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 19
+  },
+  {
+    "date": "2027-03-20",
+    "phase": "System Design and Advanced RAG",
+    "domain": "System Design + LLD",
+    "topic": "Design WhatsApp messaging / BookMyShow design",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 19
+  },
+  {
+    "date": "2027-03-21",
+    "phase": "System Design and Advanced RAG",
+    "domain": "Revision + AI Project",
+    "topic": "Revise DP and explain one system design aloud",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 19
+  },
+  {
+    "date": "2027-03-22",
+    "phase": "System Design and Advanced RAG",
+    "domain": "DSA",
+    "topic": "Dynamic programming: 1D",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 19
+  },
+  {
+    "date": "2027-03-23",
+    "phase": "System Design and Advanced RAG",
+    "domain": "Java / Backend",
+    "topic": "Hibernate performance and batching",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 19
+  },
+  {
+    "date": "2027-03-24",
+    "phase": "System Design and Advanced RAG",
+    "domain": "DSA",
+    "topic": "Greedy problem patterns",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 19
+  },
+  {
+    "date": "2027-03-25",
+    "phase": "System Design and Advanced RAG",
+    "domain": "Applied AI",
+    "topic": "Reranking and relevance scoring",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 20
+  },
+  {
+    "date": "2027-03-26",
+    "phase": "System Design and Advanced RAG",
+    "domain": "DSA + SQL",
+    "topic": "Mixed timed DSA set + Database bottleneck diagnosis",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 20
+  },
+  {
+    "date": "2027-03-27",
+    "phase": "System Design and Advanced RAG",
+    "domain": "System Design + LLD",
+    "topic": "Design video upload and delivery / Elevator system design",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 20
+  },
+  {
+    "date": "2027-03-28",
+    "phase": "System Design and Advanced RAG",
+    "domain": "Revision + AI Project",
+    "topic": "Upgrade RAG with hybrid search and reranking",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 20
+  },
+  {
+    "date": "2027-03-29",
+    "phase": "System Design and Advanced RAG",
+    "domain": "DSA",
+    "topic": "Dynamic programming: 2D",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 20
+  },
+  {
+    "date": "2027-03-30",
+    "phase": "System Design and Advanced RAG",
+    "domain": "Java / Backend",
+    "topic": "Testing service and controller layers",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 20
+  },
+  {
+    "date": "2027-03-31",
+    "phase": "System Design and Advanced RAG",
+    "domain": "DSA",
+    "topic": "Tries",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 20
+  },
+  {
+    "date": "2027-04-01",
+    "phase": "System Design and Advanced RAG",
+    "domain": "Applied AI",
+    "topic": "Query rewriting and multi-query retrieval",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 21
+  },
+  {
+    "date": "2027-04-02",
+    "phase": "System Design and Advanced RAG",
+    "domain": "DSA + SQL",
+    "topic": "Dynamic programming: 1D + Window functions",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 21
+  },
+  {
+    "date": "2027-04-03",
+    "phase": "System Design and Advanced RAG",
+    "domain": "System Design + LLD",
+    "topic": "Design a URL shortener / BookMyShow design",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 21
+  },
+  {
+    "date": "2027-04-04",
+    "phase": "System Design and Advanced RAG",
+    "domain": "Revision + AI Project",
+    "topic": "Revise DP and explain one system design aloud",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 21
+  },
+  {
+    "date": "2027-04-05",
+    "phase": "System Design and Advanced RAG",
+    "domain": "DSA",
+    "topic": "Greedy problem patterns",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 21
+  },
+  {
+    "date": "2027-04-06",
+    "phase": "System Design and Advanced RAG",
+    "domain": "Java / Backend",
+    "topic": "Java concurrency revision",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 21
+  },
+  {
+    "date": "2027-04-07",
+    "phase": "System Design and Advanced RAG",
+    "domain": "DSA",
+    "topic": "Monotonic stack and queue",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 21
+  },
+  {
+    "date": "2027-04-08",
+    "phase": "System Design and Advanced RAG",
+    "domain": "Applied AI",
+    "topic": "Parent-child retrieval",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 22
+  },
+  {
+    "date": "2027-04-09",
+    "phase": "System Design and Advanced RAG",
+    "domain": "DSA + SQL",
+    "topic": "Dynamic programming: 2D + CTEs and recursive queries",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 22
+  },
+  {
+    "date": "2027-04-10",
+    "phase": "System Design and Advanced RAG",
+    "domain": "System Design + LLD",
+    "topic": "Design an Instagram-style feed / Elevator system design",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 22
+  },
+  {
+    "date": "2027-04-11",
+    "phase": "Distributed Systems and n8n",
+    "domain": "Revision + AI Project",
+    "topic": "Build an n8n email-to-ticket automation using an LLM",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 22
+  },
+  {
+    "date": "2027-04-12",
+    "phase": "Distributed Systems and n8n",
+    "domain": "DSA",
+    "topic": "Graph shortest paths",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 22
+  },
+  {
+    "date": "2027-04-13",
+    "phase": "Distributed Systems and n8n",
+    "domain": "Java / Backend",
+    "topic": "Kafka producer/consumer basics",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 22
+  },
+  {
+    "date": "2027-04-14",
+    "phase": "Distributed Systems and n8n",
+    "domain": "DSA",
+    "topic": "Backtracking revision",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 22
+  },
+  {
+    "date": "2027-04-15",
+    "phase": "Distributed Systems and n8n",
+    "domain": "Applied AI",
+    "topic": "Calling Spring Boot APIs from n8n",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 23
+  },
+  {
+    "date": "2027-04-16",
+    "phase": "Distributed Systems and n8n",
+    "domain": "DSA + SQL",
+    "topic": "Graph shortest paths + Locking and deadlock analysis",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 23
+  },
+  {
+    "date": "2027-04-17",
+    "phase": "Distributed Systems and n8n",
+    "domain": "System Design + LLD",
+    "topic": "Kafka and event-driven architecture / Notification service design",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 23
+  },
+  {
+    "date": "2027-04-18",
+    "phase": "Distributed Systems and n8n",
+    "domain": "Revision + AI Project",
+    "topic": "Timed DSA + system design mock",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 23
+  },
+  {
+    "date": "2027-04-19",
+    "phase": "Distributed Systems and n8n",
+    "domain": "DSA",
+    "topic": "Advanced binary search",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 23
+  },
+  {
+    "date": "2027-04-20",
+    "phase": "Distributed Systems and n8n",
+    "domain": "Java / Backend",
+    "topic": "Resilience: retries and circuit breakers",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 23
+  },
+  {
+    "date": "2027-04-21",
+    "phase": "Distributed Systems and n8n",
+    "domain": "DSA",
+    "topic": "Mixed medium problems",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 23
+  },
+  {
+    "date": "2027-04-22",
+    "phase": "Distributed Systems and n8n",
+    "domain": "Applied AI",
+    "topic": "Error handling and workflow observability",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 24
+  },
+  {
+    "date": "2027-04-23",
+    "phase": "Distributed Systems and n8n",
+    "domain": "DSA + SQL",
+    "topic": "Advanced binary search + Index and query-plan revision",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 24
+  },
+  {
+    "date": "2027-04-24",
+    "phase": "Distributed Systems and n8n",
+    "domain": "System Design + LLD",
+    "topic": "Distributed transactions and sagas / Payment processing design",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 24
+  },
+  {
+    "date": "2027-04-25",
+    "phase": "Distributed Systems and n8n",
+    "domain": "Revision + AI Project",
+    "topic": "Build an n8n email-to-ticket automation using an LLM",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 24
+  },
+  {
+    "date": "2027-04-26",
+    "phase": "Distributed Systems and n8n",
+    "domain": "DSA",
+    "topic": "Backtracking revision",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 24
+  },
+  {
+    "date": "2027-04-27",
+    "phase": "Distributed Systems and n8n",
+    "domain": "Java / Backend",
+    "topic": "Docker and integration testing",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 24
+  },
+  {
+    "date": "2027-04-28",
+    "phase": "Distributed Systems and n8n",
+    "domain": "DSA",
+    "topic": "DP revision: subsequences",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 24
+  },
+  {
+    "date": "2027-04-29",
+    "phase": "Distributed Systems and n8n",
+    "domain": "Applied AI",
+    "topic": "n8n workflow fundamentals",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 25
+  },
+  {
+    "date": "2027-04-30",
+    "phase": "Distributed Systems and n8n",
+    "domain": "DSA + SQL",
+    "topic": "Backtracking revision + Database scaling trade-offs",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 25
+  },
+  {
+    "date": "2027-05-01",
+    "phase": "Distributed Systems and n8n",
+    "domain": "System Design + LLD",
+    "topic": "CAP theorem and consistency / Notification service design",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 25
+  },
+  {
+    "date": "2027-05-02",
+    "phase": "Distributed Systems and n8n",
+    "domain": "Revision + AI Project",
+    "topic": "Timed DSA + system design mock",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 25
+  },
+  {
+    "date": "2027-05-03",
+    "phase": "Distributed Systems and n8n",
+    "domain": "DSA",
+    "topic": "Mixed medium problems",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 25
+  },
+  {
+    "date": "2027-05-04",
+    "phase": "Distributed Systems and n8n",
+    "domain": "Java / Backend",
+    "topic": "Microservice communication patterns",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 25
+  },
+  {
+    "date": "2027-05-05",
+    "phase": "Distributed Systems and n8n",
+    "domain": "DSA",
+    "topic": "Graph shortest paths",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 25
+  },
+  {
+    "date": "2027-05-06",
+    "phase": "Distributed Systems and n8n",
+    "domain": "Applied AI",
+    "topic": "Triggers, schedules and webhooks",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 26
+  },
+  {
+    "date": "2027-05-07",
+    "phase": "Distributed Systems and n8n",
+    "domain": "DSA + SQL",
+    "topic": "Mixed medium problems + Locking and deadlock analysis",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 26
+  },
+  {
+    "date": "2027-05-08",
+    "phase": "Distributed Systems and n8n",
+    "domain": "System Design + LLD",
+    "topic": "Consistent hashing / Payment processing design",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 26
+  },
+  {
+    "date": "2027-05-09",
+    "phase": "Distributed Systems and n8n",
+    "domain": "Revision + AI Project",
+    "topic": "Build an n8n email-to-ticket automation using an LLM",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 26
+  },
+  {
+    "date": "2027-05-10",
+    "phase": "Distributed Systems and n8n",
+    "domain": "DSA",
+    "topic": "DP revision: subsequences",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 26
+  },
+  {
+    "date": "2027-05-11",
+    "phase": "Interview Practice and Agents",
+    "domain": "Java / Backend",
+    "topic": "JVM and garbage collection interview revision",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 26
+  },
+  {
+    "date": "2027-05-12",
+    "phase": "Interview Practice and Agents",
+    "domain": "DSA",
+    "topic": "Revise graphs and DSU",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 26
+  },
+  {
+    "date": "2027-05-13",
+    "phase": "Interview Practice and Agents",
+    "domain": "Applied AI",
+    "topic": "Agent planning and execution loops",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 27
+  },
+  {
+    "date": "2027-05-14",
+    "phase": "Interview Practice and Agents",
+    "domain": "DSA + SQL",
+    "topic": "Revise arrays, hashing and sliding window + SQL timed interview set",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 27
+  },
+  {
+    "date": "2027-05-15",
+    "phase": "Interview Practice and Agents",
+    "domain": "System Design + LLD",
+    "topic": "Design a ride-booking platform / Machine coding: Parking Lot",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 27
+  },
+  {
+    "date": "2027-05-16",
+    "phase": "Interview Practice and Agents",
+    "domain": "Revision + AI Project",
+    "topic": "Full mock interview: DSA + Java + project discussion",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 27
+  },
+  {
+    "date": "2027-05-17",
+    "phase": "Interview Practice and Agents",
+    "domain": "DSA",
+    "topic": "Revise trees and heaps",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 27
+  },
+  {
+    "date": "2027-05-18",
+    "phase": "Interview Practice and Agents",
+    "domain": "Java / Backend",
+    "topic": "Spring Boot internals interview revision",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 27
+  },
+  {
+    "date": "2027-05-19",
+    "phase": "Interview Practice and Agents",
+    "domain": "DSA",
+    "topic": "Revise DP and greedy",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 27
+  },
+  {
+    "date": "2027-05-20",
+    "phase": "Interview Practice and Agents",
+    "domain": "Applied AI",
+    "topic": "Memory, guardrails and human approval",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 28
+  },
+  {
+    "date": "2027-05-21",
+    "phase": "Interview Practice and Agents",
+    "domain": "DSA + SQL",
+    "topic": "Revise trees and heaps + DBMS and transaction revision",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 28
+  },
+  {
+    "date": "2027-05-22",
+    "phase": "Interview Practice and Agents",
+    "domain": "System Design + LLD",
+    "topic": "Design a payment platform / Machine coding: Splitwise",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 28
+  },
+  {
+    "date": "2027-05-23",
+    "phase": "Interview Practice and Agents",
+    "domain": "Revision + AI Project",
+    "topic": "Prototype an AI shopping assistant with product-search tools",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 28
+  },
+  {
+    "date": "2027-05-24",
+    "phase": "Interview Practice and Agents",
+    "domain": "DSA",
+    "topic": "Revise graphs and DSU",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 28
+  },
+  {
+    "date": "2027-05-25",
+    "phase": "Interview Practice and Agents",
+    "domain": "Java / Backend",
+    "topic": "Backend debugging and performance scenarios",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 28
+  },
+  {
+    "date": "2027-05-26",
+    "phase": "Interview Practice and Agents",
+    "domain": "DSA",
+    "topic": "Two timed mixed sets",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 28
+  },
+  {
+    "date": "2027-05-27",
+    "phase": "Interview Practice and Agents",
+    "domain": "Applied AI",
+    "topic": "MCP architecture: client, server and tools",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 29
+  },
+  {
+    "date": "2027-05-28",
+    "phase": "Interview Practice and Agents",
+    "domain": "DSA + SQL",
+    "topic": "Revise graphs and DSU + SQL timed interview set",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 29
+  },
+  {
+    "date": "2027-05-29",
+    "phase": "Interview Practice and Agents",
+    "domain": "System Design + LLD",
+    "topic": "Design a food delivery platform / Machine coding: Parking Lot",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 29
+  },
+  {
+    "date": "2027-05-30",
+    "phase": "Interview Practice and Agents",
+    "domain": "Revision + AI Project",
+    "topic": "Full mock interview: DSA + Java + project discussion",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 29
+  },
+  {
+    "date": "2027-05-31",
+    "phase": "Interview Practice and Agents",
+    "domain": "DSA",
+    "topic": "Revise DP and greedy",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 29
+  },
+  {
+    "date": "2027-06-01",
+    "phase": "Interview Practice and Agents",
+    "domain": "Java / Backend",
+    "topic": "Core Java interview revision",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 29
+  },
+  {
+    "date": "2027-06-02",
+    "phase": "Interview Practice and Agents",
+    "domain": "DSA",
+    "topic": "Revise arrays, hashing and sliding window",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 29
+  },
+  {
+    "date": "2027-06-03",
+    "phase": "Interview Practice and Agents",
+    "domain": "Applied AI",
+    "topic": "Connect a Spring AI app to an MCP server",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 30
+  },
+  {
+    "date": "2027-06-04",
+    "phase": "Interview Practice and Agents",
+    "domain": "DSA + SQL",
+    "topic": "Revise DP and greedy + DBMS and transaction revision",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 30
+  },
+  {
+    "date": "2027-06-05",
+    "phase": "Interview Practice and Agents",
+    "domain": "System Design + LLD",
+    "topic": "Design a notification platform / Machine coding: Splitwise",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 30
+  },
+  {
+    "date": "2027-06-06",
+    "phase": "Interview Practice and Agents",
+    "domain": "Revision + AI Project",
+    "topic": "Prototype an AI shopping assistant with product-search tools",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 30
+  },
+  {
+    "date": "2027-06-07",
+    "phase": "Interview Practice and Agents",
+    "domain": "DSA",
+    "topic": "Two timed mixed sets",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 30
+  },
+  {
+    "date": "2027-06-08",
+    "phase": "Interview Practice and Agents",
+    "domain": "Java / Backend",
+    "topic": "JVM and garbage collection interview revision",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 30
+  },
+  {
+    "date": "2027-06-09",
+    "phase": "Interview Practice and Agents",
+    "domain": "DSA",
+    "topic": "Revise trees and heaps",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 30
+  },
+  {
+    "date": "2027-06-10",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "Applied AI",
+    "topic": "AI application cost optimization",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 31
+  },
+  {
+    "date": "2027-06-11",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "DSA + SQL",
+    "topic": "Final mixed DSA assessment + SQL and DBMS final revision",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 31
+  },
+  {
+    "date": "2027-06-12",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "System Design + LLD",
+    "topic": "System design mock interview / Machine coding timed practice",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 31
+  },
+  {
+    "date": "2027-06-13",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "Revision + AI Project",
+    "topic": "Full mock interview and resume review",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 31
+  },
+  {
+    "date": "2027-06-14",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "DSA",
+    "topic": "Weak-topic repair set",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 31
+  },
+  {
+    "date": "2027-06-15",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "Java / Backend",
+    "topic": "Java and Spring Boot rapid revision",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 31
+  },
+  {
+    "date": "2027-06-16",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "DSA",
+    "topic": "Timed OA simulation",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 31
+  },
+  {
+    "date": "2027-06-17",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "Applied AI",
+    "topic": "Prompt and retrieval caching",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 32
+  },
+  {
+    "date": "2027-06-18",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "DSA + SQL",
+    "topic": "Weak-topic repair set + Explain query plans and indexing scenarios",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 32
+  },
+  {
+    "date": "2027-06-19",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "System Design + LLD",
+    "topic": "Review trade-offs and bottlenecks / Review SOLID and design patterns",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 32
+  },
+  {
+    "date": "2027-06-20",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "Revision + AI Project",
+    "topic": "Deploy and demo the AI shopping assistant; plan next learning cycle",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 32
+  },
+  {
+    "date": "2027-06-21",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "DSA",
+    "topic": "Company-tagged medium problems",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 32
+  },
+  {
+    "date": "2027-06-22",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "Java / Backend",
+    "topic": "Concurrency and collections rapid revision",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 32
+  },
+  {
+    "date": "2027-06-23",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "DSA",
+    "topic": "Re-solve previously missed problems",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 32
+  },
+  {
+    "date": "2027-06-24",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "Applied AI",
+    "topic": "Logging, tracing and token monitoring",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 33
+  },
+  {
+    "date": "2027-06-25",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "DSA + SQL",
+    "topic": "Company-tagged medium problems + SQL and DBMS final revision",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 33
+  },
+  {
+    "date": "2027-06-26",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "System Design + LLD",
+    "topic": "Design an e-commerce platform end to end / Machine coding timed practice",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 33
+  },
+  {
+    "date": "2027-06-27",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "Revision + AI Project",
+    "topic": "Full mock interview and resume review",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 33
+  },
+  {
+    "date": "2027-06-28",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "DSA",
+    "topic": "Timed OA simulation",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 33
+  },
+  {
+    "date": "2027-06-29",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "Java / Backend",
+    "topic": "Testing, security and performance checklist",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 33
+  },
+  {
+    "date": "2027-06-30",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "DSA",
+    "topic": "Final mixed DSA assessment",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 33
+  },
+  {
+    "date": "2027-07-01",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "Applied AI",
+    "topic": "Deploy RAG/agent application with Docker",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 34
+  },
+  {
+    "date": "2027-07-02",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "DSA + SQL",
+    "topic": "Timed OA simulation + Explain query plans and indexing scenarios",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 34
+  },
+  {
+    "date": "2027-07-03",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "System Design + LLD",
+    "topic": "Design a scalable search service / Review SOLID and design patterns",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 34
+  },
+  {
+    "date": "2027-07-04",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "Revision + AI Project",
+    "topic": "Deploy and demo the AI shopping assistant; plan next learning cycle",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 34
+  },
+  {
+    "date": "2027-07-05",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "DSA",
+    "topic": "Re-solve previously missed problems",
+    "detail": "Learn the pattern, solve 1–2 problems, and write down edge cases.",
+    "minutes": 60,
+    "week": 34
+  },
+  {
+    "date": "2027-07-06",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "Java / Backend",
+    "topic": "Java and Spring Boot rapid revision",
+    "detail": "Study the concept, implement a small example, and explain it in your own words.",
+    "minutes": 60,
+    "week": 34
+  },
+  {
+    "date": "2027-07-07",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "DSA",
+    "topic": "Weak-topic repair set",
+    "detail": "Solve 1–2 problems without looking at the solution; revise complexity.",
+    "minutes": 60,
+    "week": 34
+  },
+  {
+    "date": "2027-07-08",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "Applied AI",
+    "topic": "Security, rate limits and data privacy",
+    "detail": "Learn the concept and build or test a tiny working example.",
+    "minutes": 60,
+    "week": 35
+  },
+  {
+    "date": "2027-07-09",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "DSA + SQL",
+    "topic": "Re-solve previously missed problems + SQL and DBMS final revision",
+    "detail": "Practise one DSA problem and one SQL query; revise mistakes.",
+    "minutes": 60,
+    "week": 35
+  },
+  {
+    "date": "2027-07-10",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "System Design + LLD",
+    "topic": "System design mock interview / Machine coding timed practice",
+    "detail": "Draw the architecture or class diagram; discuss trade-offs and failure cases.",
+    "minutes": 180,
+    "week": 35
+  },
+  {
+    "date": "2027-07-11",
+    "phase": "Polish, Deploy and Apply",
+    "domain": "Revision + AI Project",
+    "topic": "Full mock interview and resume review",
+    "detail": "Review the week's notes, update your progress, and make a small project increment.",
+    "minutes": 240,
+    "week": 35
+  }
+]
