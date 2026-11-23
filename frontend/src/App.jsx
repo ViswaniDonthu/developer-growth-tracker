@@ -34,8 +34,12 @@ export default function App() {
   useEffect(() => { refresh() }, [])
 
   const today = todayISO()
-  const todayTask = days.find(d => d.date === today)
-  const nextTask = days.find(d => d.date > today && !d.completed)
+  const activeIncomplete = days.find(d => !d.completed)
+  const completedToday = days.find(d => d.completed && d.completedAt && d.completedAt.startsWith(today))
+  const todayTask = completedToday || activeIncomplete || days[0]
+
+  const todayIndex = days.findIndex(d => d.date === todayTask?.date)
+  const nextTask = todayIndex !== -1 ? days.slice(todayIndex + 1).find(d => !d.completed) : null
   const months = useMemo(() => [...new Set(days.map(d => d.date.slice(0,7)))], [days])
   const filtered = days.filter(d => (filter === 'ALL' || d.status === filter) && (month === 'ALL' || d.date.startsWith(month)))
   const completed = summary?.completed || 0
@@ -74,35 +78,35 @@ export default function App() {
       {error && <div className="error">{error} <button onClick={refresh}>Retry</button></div>}
       {loading ? <div className="loading">Loading your learning plan…</div> : <>
         <section className="stats-grid">
-          <Stat label="STUDY DAYS COMPLETED" value={`${completed} / ${summary?.elapsed || 0}`} note="Progress so far" icon="✓"/>
-          <Stat label="COMPLETION RATE" value={`${rate}%`} note="Of scheduled days elapsed" icon="◔"/>
-          <Stat label="CURRENT STREAK" value={`${summary?.currentStreak || 0} days`} note="Consecutive completed days" icon="♨"/>
+          <Stat label="TOPICS COMPLETED" value={`${completed} / ${days.length}`} note="Roadmap progress" icon="✓"/>
+          <Stat label="COMPLETION RATE" value={`${rate}%`} note="Of full 242-day curriculum" icon="◔"/>
+          <Stat label="CURRENT STREAK" value={`${summary?.currentStreak || 0} days`} note="Consecutive study days" icon="♨"/>
           <Stat label="LONGEST STREAK" value={`${summary?.longestStreak || 0} days`} note="Your personal best" icon="↗"/>
         </section>
 
         <section className="today-layout">
           <div className="today-card">
-            <div className="card-top"><span className="pill purple">TODAY'S FOCUS</span><span className="muted">{fmt(today, {weekday:'long', day:'numeric', month:'long'})}</span></div>
+            <div className="card-top"><span className="pill purple">CURRENT FOCUS</span><span className="muted">{fmt(today, {weekday:'long', day:'numeric', month:'long'})}</span></div>
             {todayTask ? <>
               <div className="today-domain">{todayTask.domain} <span>·</span> {todayTask.phase}</div>
               <h2>{todayTask.topic}</h2>
               <p className="task-detail">{todayTask.detail}</p>
               <div className="task-meta"><span>◷ &nbsp;{duration(todayTask.minutes)}</span><span>▣ &nbsp;Week {todayTask.week}</span></div>
-              {doneToday ? <button className="complete-btn done" onClick={() => mark(today, true)} disabled={busy}>✓ &nbsp; Completed today · Undo</button>
-                : <button className="complete-btn" onClick={() => mark(today, false)} disabled={busy}>✓ &nbsp; I've studied this</button>}
-            </> : <div className="empty-today"><h2>No scheduled topic for today</h2><p>Your plan runs from {fmt(START)} to {fmt(END)}.</p></div>}
+              {doneToday ? <button className="complete-btn done" onClick={() => mark(todayTask.date, true)} disabled={busy}>✓ &nbsp; Completed · Undo</button>
+                : <button className="complete-btn" onClick={() => mark(todayTask.date, false)} disabled={busy}>✓ &nbsp; I've studied this</button>}
+            </> : <div className="empty-today"><h2>All topics completed!</h2><p>Congratulations, you've completed the full 8-month roadmap!</p></div>}
           </div>
           <div className="side-card">
             <div className="card-heading">UP NEXT <span>↗</span></div>
             {nextTask ? <><div className="next-date">{fmt(nextTask.date, {weekday:'short', day:'numeric', month:'short'})}</div><h3>{nextTask.topic}</h3><p>{nextTask.domain}</p><div className="thin-line"></div><div className="small-row"><span>Estimated time</span><b>{duration(nextTask.minutes)}</b></div></> : <p className="muted">You've reached the end of this plan.</p>}
-            <div className="tip"><b>Keep the sequence moving</b><p>Missed a day? No problem. Tomorrow's topic still appears on its scheduled date. You can catch up whenever you have time.</p></div>
+            <div className="tip"><b>Master at your own pace</b><p>Topics advance only when you complete them. If you take a break, this topic will still be waiting for you tomorrow.</p></div>
           </div>
         </section>
 
         <section className="progress-panel">
           <div className="section-title"><div><div className="eyebrow">THE BIG PICTURE</div><h2>8-month journey</h2></div><span className="muted">{fmt(START)} — {fmt(END)}</span></div>
           <div className="progress-track"><div className="progress-fill" style={{width:`${rate}%`}}/></div>
-          <div className="progress-labels"><span>{completed} completed</span><span>{summary?.missed || 0} missed</span><span>{Math.max(0,(summary?.elapsed || 0)-completed-(summary?.missed || 0))} pending today</span></div>
+          <div className="progress-labels"><span>{completed} completed</span><span>{days.length - completed} remaining</span><span>{summary?.missed ? `${summary.missed} days behind schedule` : 'On track'}</span></div>
         </section>
 
         <section className="domains-panel" id="domains">
@@ -114,14 +118,14 @@ export default function App() {
           <div className="section-title schedule-title"><div><div className="eyebrow">YOUR DAILY PLAN</div><h2>Study schedule</h2><p className="muted">Every date has one planned focus. Completion is tracked independently for each day.</p></div></div>
           <div className="filters">
             <select value={month} onChange={e=>setMonth(e.target.value)}><option value="ALL">All months</option>{months.map(m=><option key={m} value={m}>{new Date(`${m}-01T00:00:00`).toLocaleDateString('en-IN',{month:'long',year:'numeric'})}</option>)}</select>
-            <select value={filter} onChange={e=>setFilter(e.target.value)}><option value="ALL">All statuses</option><option value="COMPLETED">Completed</option><option value="MISSED">Missed</option><option value="TODAY">Today</option><option value="UPCOMING">Upcoming</option></select>
+            <select value={filter} onChange={e=>setFilter(e.target.value)}><option value="ALL">All statuses</option><option value="COMPLETED">Completed</option><option value="TODAY">Current focus</option><option value="UPCOMING">Upcoming</option></select>
             <span className="row-count">{filtered.length} days</span>
           </div>
           <div className="table-wrap"><table><thead><tr><th>DATE</th><th>DOMAIN</th><th>TOPIC</th><th>TIME</th><th>STATUS</th><th>ACTION</th></tr></thead>
-            <tbody>{filtered.map(d=><tr key={d.date} className={d.date===today?'today-row':''}>
+            <tbody>{filtered.map(d=><tr key={d.date} className={d.date===todayTask?.date?'today-row':''}>
               <td className="date-cell">{fmt(d.date,{day:'2-digit',month:'short'})}<small>{new Date(`${d.date}T00:00:00`).toLocaleDateString('en-IN',{weekday:'short'})}</small></td>
               <td><span className="domain-tag">{d.domain}</span></td><td className="topic-cell"><b>{d.topic}</b><small>{d.phase}</small></td><td>{duration(d.minutes)}</td>
-              <td><Status status={d.status}/></td><td>{d.status==='TODAY' || d.completed ? <button className={`table-action ${d.completed?'undo':''}`} disabled={busy} onClick={()=>mark(d.date,d.completed)}>{d.completed?'Undo':'Mark studied'}</button> : <span className="dash">—</span>}</td>
+              <td><Status status={d.status}/></td><td><button className={`table-action ${d.completed?'undo':''}`} disabled={busy} onClick={()=>mark(d.date,d.completed)}>{d.completed?'Undo':'Mark studied'}</button></td>
             </tr>)}</tbody></table>{filtered.length===0&&<div className="no-rows">No study days match these filters.</div>}</div>
         </section>
       </>}
@@ -132,7 +136,7 @@ export default function App() {
 
 function Stat({label,value,note,icon}) { return <div className="stat-card"><div className="stat-icon">{icon}</div><div className="stat-label">{label}</div><div className="stat-value">{value}</div><div className="stat-note">{note}</div></div> }
 function Status({status}) {
-  const map = {COMPLETED:['Completed','green'],MISSED:['Missed','red'],TODAY:['Today','purple'],UPCOMING:['Upcoming','gray']}
+  const map = {COMPLETED:['Completed','green'],MISSED:['Missed','red'],TODAY:['Current focus','purple'],UPCOMING:['Upcoming','gray']}
   const [label,cls] = map[status] || map.UPCOMING
   return <span className={`status ${cls}`}><i/>{label}</span>
 }

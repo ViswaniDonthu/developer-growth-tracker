@@ -22,15 +22,28 @@ public class PlanService {
     }
 
     public List<StudyDay> getDays(LocalDate from, LocalDate to, StudyCompletionRepository repo) {
-        Map<LocalDate, StudyCompletion> completed = repo.findByStudyDateBetween(from, to).stream()
-                .collect(Collectors.toMap(StudyCompletion::getStudyDate, x -> x));
-        LocalDate today = LocalDate.now(ZoneId.of("Asia/Kolkata"));
+        List<StudyCompletion> allCompleted = repo.findAll();
+        Map<LocalDate, StudyCompletion> completed = allCompleted.stream()
+                .collect(Collectors.toMap(StudyCompletion::getStudyDate, x -> x, (a, b) -> a));
+
+        // Find the first incomplete topic in the sequential plan to be the active focus
+        LocalDate currentActiveDate = null;
+        for (Map<String, Object> row : plan) {
+            LocalDate d = LocalDate.parse((String) row.get("date"));
+            if (!completed.containsKey(d)) {
+                currentActiveDate = d;
+                break;
+            }
+        }
+
+        final LocalDate focusDate = currentActiveDate;
+
         return plan.stream().map(row -> {
             LocalDate date = LocalDate.parse((String) row.get("date"));
             if (date.isBefore(from) || date.isAfter(to)) return null;
             StudyCompletion c = completed.get(date);
             boolean done = c != null;
-            String status = done ? "COMPLETED" : (date.isBefore(today) ? "MISSED" : (date.equals(today) ? "TODAY" : "UPCOMING"));
+            String status = done ? "COMPLETED" : (date.equals(focusDate) ? "TODAY" : "UPCOMING");
             return new StudyDay(date, (String) row.get("phase"), (String) row.get("domain"),
                     (String) row.get("topic"), (String) row.get("detail"),
                     ((Number) row.get("minutes")).intValue(), ((Number) row.get("week")).intValue(),
